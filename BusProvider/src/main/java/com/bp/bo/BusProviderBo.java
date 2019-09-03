@@ -2,8 +2,12 @@ package com.bp.bo;
 
 import java.io.Serializable;
 
-public class BusProviderBo  {
 
+
+public class BusProviderBo implements Serializable {
+
+protected int busProviderNo;
+protected String bussinessName;
 	
 	
 }
