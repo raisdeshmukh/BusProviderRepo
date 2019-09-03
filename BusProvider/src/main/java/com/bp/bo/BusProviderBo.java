@@ -1,10 +1,9 @@
 package com.bp.bo;
 
-public class BusProviderBo {
+import java.io.Serializable;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class BusProviderBo implements Serializable {
 
-	}
-
+	protected String bussinessName;
+	
 }
