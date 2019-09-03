@@ -1,7 +1,10 @@
 package com.bp.bo;
 
-public class BusProviderBo {
+import java.io.Serializable;
 
 
+public class BusProviderBo implements Serializable {
+
+protected int busProviderNo;
 
 }
